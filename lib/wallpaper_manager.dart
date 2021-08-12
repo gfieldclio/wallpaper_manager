@@ -4,8 +4,7 @@ import 'package:flutter/services.dart';
 /// WallpaperManager plugin begins here
 class WallpaperManager {
   /// Define channel
-  static const MethodChannel _channel =
-      const MethodChannel('wallpaper_manager');
+  static const MethodChannel _channel = MethodChannel('wallpaper_manager');
 
   /// Static code for Home Screen Wallpaper Choice
   static const int HOME_SCREEN = 1;
